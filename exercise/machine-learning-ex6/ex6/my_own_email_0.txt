@@ -1,0 +1,8 @@
+tp-yan,
+We found a vulnerable dependency in a repository you have security alert access to.
+
+tp-yan/tp-yan.github.io
+Known high severity security vulnerability detected in nokogiri   1.10.4 defined in Gemfile.lock.
+Gemfile.lock update suggested: nokogiri ~ 1.10.4.
+Always verify the validity and compatibility of suggestions with your codebase.
+Review vulnerable dependency

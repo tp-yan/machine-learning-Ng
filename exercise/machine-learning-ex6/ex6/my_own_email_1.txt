@@ -1,0 +1,27 @@
+
+Having trouble viewing this email? View as a webpage
+	Visual Studio
+Visual Studio Dev Essentials
+Developer news, updates, and training resources
+Dev Essentials portal
+
+There’s a lot happening for developers, and we want don’t want you to miss a thing. First, save the date for the free .NET Conf virtual developer event––September 23 to 25, 2019. Learn how to build a serverless, real-time web application and explore new Azure SQL VM functionality. Check out the refreshed Unity scripting tutorial videos and a free webinar on how Redgate tools for SQL Server can help you remove the database bottleneck. Remember to use your Azure credit––and, as always, thank you for reading.
+Build a serverless, real-time web application
+Enable automatic updates in a web application using Azure Functions, SignalR Service, and Cosmos DB change feed to build a lightweight and efficient architecture where communication between the client and the server happens only when data is changed.
+Start this Microsoft Learn module  
+Save the date for .NET Conf September 23-25
+.NET Conf is our free, annual, three-day virtual developer event co-organized by the .NET community and Microsoft. This year, .NET Core 3.0 will launch at .NET Conf. Watch live sessions and ask questions on a variety of .NET topics including web, mobile, IoT, desktop, AI, and cloud. Save the date and tune in to www.dotnetconf.net.
+Save the date  
+New Azure SQL VM functionality with resource provider
+Customers can register their self-installed (custom image) SQL VMs using the resource provider to access benefits like auto-patching, auto-backup, and new license management options. Additionally, a new Azure SQL blade in the Azure Portal now provides a single pane of glass through which you can manage Azure SQL databases and SQL Server on Azure Virtual Machines.
+Read the blog post to learn more  
+Scripting your next game with Visual Studio and Unity
+We are excited to announce a refresh of our popular beginner and intermediate scripting tutorial videos, available for free on Unity Learn. We teamed up with Unity to create game developer tutorials that will help you learn the fundamentals of scripting and programming using C#, Microsoft Visual Studio, and Unity 2019.
+Check out the blog post for more details  
+Webinar: Fast and reliable development with Redgate solutions for SQL Server
+Join us for a free webinar on Thursday, August 29, 2019 from 10:00 AM to 11:00 AM Pacific Time to learn how Redgate tools for SQL Server can help you deliver software quickly. Microsoft Certified Master Kendra Little will show you reliable, repeatable processes that remove the database bottleneck. Learn how to bring database administrators (DBAs) into the software development life cycle early and how to help your developers innovate without sacrificing compliance.
+Register for the webinar  
+
+Free Azure account + $200 credit
+Start building your next great idea in the cloud with $200 in Azure credit for 30 days. Keep going with access to virtual machines, SQL database, and more popular app development services for the next 12 months.
+Activate Azure credit now

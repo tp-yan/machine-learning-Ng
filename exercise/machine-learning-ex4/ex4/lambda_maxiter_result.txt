@@ -1,0 +1,33 @@
+lambda = 1.0
+Training Neural Network...
+Iteration    50 | Cost: 4.721124e-01
+Program paused. Press enter to continue.
+
+Visualizing Neural Network...
+
+Program paused. Press enter to continue.
+
+Training Set Accuracy: 95.700000
+
+
+=======================================
+Training Neural Network...
+Iteration   400 | Cost: 3.170266e-01
+Program paused. Press enter to continue.
+
+Visualizing Neural Network...
+
+Program paused. Press enter to continue.
+
+Training Set Accuracy: 99.360000
+=======================================
+lambda = 0.5
+Training Neural Network...
+Iteration    50 | Cost: 4.218059e-01
+Program paused. Press enter to continue.
+
+Visualizing Neural Network...
+
+Program paused. Press enter to continue.
+
+Training Set Accuracy: 95.220000
