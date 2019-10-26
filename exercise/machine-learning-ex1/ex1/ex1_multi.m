@@ -82,18 +82,30 @@ X = [ones(m, 1) X];
 fprintf('Running gradient descent ...\n');
 
 % Choose some alpha value
-alpha = 0.01;
+alpha = 1.0;
 num_iters = 400;
 
 % Init Theta and Run Gradient Descent 
 theta = zeros(3, 1);
+theta2 = zeros(3, 1);
+theta3 = zeros(3, 1);
+alpha2= 1.3;
+alpha3= 0.001;
 [theta, J_history] = gradientDescentMulti(X, y, theta, alpha, num_iters);
+[theta2, J_history2] = gradientDescentMulti(X, y, theta2, alpha2, num_iters);
+[theta3, J_history3] = gradientDescentMulti(X, y, theta3, alpha3, num_iters);
 
 % Plot the convergence graph
 figure;
 plot(1:numel(J_history), J_history, '-b', 'LineWidth', 2);
+hold on;
+plot(1:numel(J_history2), J_history2, '-r', 'LineWidth', 2);
+plot(1:numel(J_history3), J_history3, '-k', 'LineWidth', 2);
+hold off;
 xlabel('Number of iterations');
 ylabel('Cost J');
+legend('\alpha=1.0','\alpha=1.3','\alpha=0.001')
+
 
 % Display gradient descent's result
 fprintf('Theta computed from gradient descent: \n');
@@ -105,7 +117,12 @@ fprintf('\n');
 % Recall that the first column of X is all-ones. Thus, it does
 % not need to be normalized.
 price = 0; % You should change this
-
+x_predict = [1650;3];
+x_predict = x_predict - mu';
+x_predict = x_predict ./ sigma';
+x_predict = [1 ; x_predict];
+price = x_predict' * theta;
+%fprintf('predict: %f \n', x_predict' * theta);
 
 % ============================================================
 
@@ -151,6 +168,8 @@ fprintf('\n');
 % ====================== YOUR CODE HERE ======================
 price = 0; % You should change this
 
+x_predict = [1; 1650; 3];
+price = x_predict' * theta;
 
 % ============================================================
 
